@@ -350,6 +350,11 @@ int main() {
 
     // Hiển thị kết quả
     cout << "Khoảng cách ngắn nhất từ đỉnh " << start << ":\n";
+    cout << "Khoảng cách ngắn nhất từ đỉnh " << start << ":\n";
+    cout << "Khoảng cách ngắn nhất từ đỉnh " << start << ":\n";
+    cout << "Khoảng cách ngắn nhất từ đỉnh " << start << ":\n";
+    cout << "Khoảng cách ngắn nhất từ đỉnh " << start << ":\n";
+
     for (int i = 0; i < n; ++i) {
         cout << "Đỉnh " << i << ": ";
         if (distances[i] == INT_MAX) {

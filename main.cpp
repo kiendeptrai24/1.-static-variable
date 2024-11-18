@@ -330,7 +330,6 @@ int main() {
 
     // Đồ thị dưới dạng danh sách kề
     vector<vector<pii>> graph(n);
-    cout<<"kien ne";
     cout << "Nhập các cạnh (đỉnh u, đỉnh v, trọng số w):\n";
     for (int i = 0; i < m; ++i) {
         int u, v, w;

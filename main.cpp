@@ -325,12 +325,12 @@ int main() {
     
     // Số đỉnh và cạnh
     int n, m;
-    cout << "Nhập số đỉnh và số cạnh: ";
+        cout << "Nhập số đỉnh và số cạnh: ";
     cin >> n >> m;
 
     // Đồ thị dưới dạng danh sách kề
     vector<vector<pii>> graph(n);
-
+    cout<<"kien ne";
     cout << "Nhập các cạnh (đỉnh u, đỉnh v, trọng số w):\n";
     for (int i = 0; i < m; ++i) {
         int u, v, w;

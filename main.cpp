@@ -337,7 +337,6 @@ int main() {
         graph[u].push_back({v, w});
         graph[v].push_back({u, w}); // Nếu là đồ thị vô hướng
     }
-
     // Đỉnh xuất phát
     int start;
     cout << "Nhập đỉnh xuất phát: ";
